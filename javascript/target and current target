@@ -1,0 +1,16 @@
+target과 current target
+
+처음에는
+target은 내가 이벤트를 발생시킨 요소이고
+currentarget은 target의 부모요소인줄 알았다
+
+그래서 currentarget으로 부모노드를 삭제시킬려고 해봤는데
+안되는것이다
+
+그래서 콘솔로그로 target과 currentarget을 찍어보았는데
+똑같이 출력되었다
+
+구글링을 해보고 깨달은 점은
+target은 이벤트가 발생한 그 요소를 target
+currentaget은 이벤트핸들러가 연결되어있는 부분이 currentaget 이다
+
